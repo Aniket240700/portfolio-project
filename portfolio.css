@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lexend:wght@300&family=Libre+Baskerville:wght@400;700&family=Manrope:wght@700&family=PT+Sans&family=Roboto&display=swap');
+*{
+    font-family:  'Lexend', sans-serif;
+}
+body{
+    background-image: url('pexels-eberhard-grossgasteiger-2098427.jpg');
+    color: white;
+    background-size: cover;
+}
+.name
+{
+    text-align:center;
+}
+.full{
+    text-align:center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    
+}
+#link{
+    height: 32px;
+}
+#git{
+    height: 29px;
+}
+#insta{
+    height: 32px;
+}
+#a{
+    text-decoration: none;
+}
+#resume{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: white solid 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 500px) {
+    .all{
+        padding-top: 30%;
+    }
+}
